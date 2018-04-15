@@ -17,4 +17,4 @@ RUN ./node_modules/.bin/grunt
 
 VOLUME ["/usr/share/nginx/html"]
 
-CMD ["bash"]
+CMD ["node", "webserver.js"]
