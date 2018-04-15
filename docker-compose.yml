@@ -8,5 +8,7 @@ services:
         volumes_from:
             - freeboard:ro
     freeboard:
-        image: freeboard
+        # image: freeboard
         build: .
+        volumes: 
+            - .:/usr/share/nginx/html
